@@ -1,10 +1,8 @@
 package com.example.api.repository;
 
-import java.util.Collection;
 import java.util.List;
 
 import com.example.api.model.WinnerYear;
-import com.example.api.model.dto.MovieDTO;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

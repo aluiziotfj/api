@@ -31,9 +31,6 @@ public class MovieService {
 
         List<WinnerYear> winners = new ArrayList<>();
         List<Movie> movies = objects.stream().map(Movie::new).filter(obj -> {
-            System.out.println(obj.getProducers());
-            // if (obj.getProducers().contains(", ") || obj.getProducers().contains(" and
-            // ")) {
             if (obj.getProducers().contains(" and ")) {
                 String[] list = (obj.getProducers()).split(" and ");
 

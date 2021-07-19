@@ -2,7 +2,6 @@ package com.example.api.controller;
 
 import java.util.List;
 
-import com.example.api.model.dto.MovieDTO;
 import com.example.api.model.dto.WinnerDTO;
 import com.example.api.service.MovieService;
 
